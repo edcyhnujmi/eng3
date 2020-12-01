@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.sen-theme--color {
+    padding: .8rem;
+    background-color: rgb(230, 244, 248);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent; /*모바일에서 클릭 시 파랗게 되는 것 제거*/
+}
+
+.sen-theme {
+    padding: .8rem;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent; 
+}
+
+.sen-theme--color:active {
+    background-color: rgb(225, 239, 243);
+    transition-property: background-color;
+    transition-duration: .2s;
+}
+
+.sen-theme:active {
+    background-color: #F8F9FA;
+    transition-property: background-color;
+    transition-duration: .2s;
+}
+
+.sen-kor {
+    padding: .5rem;
+}
+
+.sen-eng {
+    padding: .5rem;
+    color: rgba(255, 255, 255, 0);
+}
+
+.disp {
+    color: black !important;
+}
