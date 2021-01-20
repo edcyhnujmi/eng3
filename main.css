@@ -2,6 +2,24 @@ body {
     margin: 0;
 }
 
+.wrap{
+    display: flex;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+.all-disp {
+    width: 50%;
+    padding: .5rem;
+    background-color: #defdf5;
+    text-align: center;
+}
+.all-hide {
+    width: 50%;
+    padding: .5rem;  
+    background-color: #fffaee;
+    text-align: center;
+}
 .sen-theme--color {
     padding: .8rem;
     background-color: rgb(230, 244, 248);
