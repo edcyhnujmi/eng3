@@ -15,7 +15,7 @@ body {
     background-color: #ebebeb;
     text-align: center;
     cursor: pointer;
-    -webkit-tap-highlight-color: transparent; /*모바일에서 클릭 시 파랗게 되는 것 제거*/
+    -webkit-tap-highlight-color: transparent;
 }
 
 .allDisp:active {
@@ -73,6 +73,6 @@ body {
     color: rgba(255, 255, 255, 0);
 }
 
-.disp {     /*!important 제거하고 속성 위쪽으로 옮기면 제대로 작동 안 된다. 이러면 안 된다.....*/
+.disp {     /*문제*/
     color: black;
 }

@@ -53,12 +53,10 @@ function findHideDisp(){
 
 //전체 표시 함수
 function dispAll(){
-    //alert("Display all sentences");
     findDisp();
 }
 //전체 제거 함수
 function delAll(){
-    //alert("Delete all sentences");
     findHideDisp();
 }
 
